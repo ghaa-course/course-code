@@ -1,5 +1,5 @@
 name: Working Dirs & Shell
-on: [push]
+on: workflow_dispatch
 defaults: 
   run: 
     shell: bash
