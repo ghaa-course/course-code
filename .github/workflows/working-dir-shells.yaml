@@ -31,8 +31,8 @@ jobs:
           echo "$env:GITHUB_SHA"
           echo "$env:GITHUB_REPOSITORY"
           echo $env:GITHUB_WORKSPACE
-      - name: Pyhton shell
-        shell: Pyhton
+      - name: Python shell
+        shell: Python
         run: |
           import platform
           print(platform.processor())
